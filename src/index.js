@@ -3,7 +3,7 @@
 const { RULES, lintObjective, lintAll, lintExitCode, renderLintReport } = require('./lint');
 const { computeCoverage, coverageExitCode, renderCoverageReport } = require('./coverage');
 const { InputError, parseObjectives, parseAgenda, loadObjectives, loadAgenda } = require('./load');
-const { BLOOM_LEVELS, normaliseLevel } = require('./util');
+const { BLOOM_LEVELS, normaliseLevel, loadVerbs, tokenise, levelsForVerb, levelIndex } = require('./util');
 const review = require('./review');
 
 module.exports = {
@@ -11,6 +11,10 @@ module.exports = {
   RULES,
   InputError,
   normaliseLevel,
+  loadVerbs,
+  tokenise,
+  levelsForVerb,
+  levelIndex,
   parseObjectives,
   parseAgenda,
   loadObjectives,

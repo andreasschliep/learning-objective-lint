@@ -1,6 +1,6 @@
 {
   "name": "learning-objective-lint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lint learning objectives against Bloom's taxonomy and check that a workshop agenda actually covers them.",
   "private": true,
   "license": "MIT",
