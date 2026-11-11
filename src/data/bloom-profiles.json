@@ -1,0 +1,18 @@
+{
+  "_comment": "Heuristic expectations per audience level. Adjust to your own context; the check is advisory.",
+  "introductory": {
+    "description": "Mostly recall, explanation and first guided application",
+    "focus": ["Remember", "Understand", "Apply"],
+    "minShare": 0.7
+  },
+  "intermediate": {
+    "description": "Mostly hands-on application and analysis",
+    "focus": ["Apply", "Analyse"],
+    "minShare": 0.5
+  },
+  "advanced": {
+    "description": "Mostly judgement, critique and design",
+    "focus": ["Analyse", "Evaluate", "Create"],
+    "minShare": 0.5
+  }
+}

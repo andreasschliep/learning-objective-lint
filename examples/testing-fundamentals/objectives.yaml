@@ -1,0 +1,59 @@
+# FICTIONAL EXAMPLE DATA
+# "Testing Fundamentals" is a made-up 60-minute workshop on unit testing for developers.
+# Some objectives are deliberately flawed so that `lo-lint lint` has something to show;
+# they are marked with "# flawed: ..." comments.
+
+metadata:
+  id: TF
+  title: Testing Fundamentals (fictional)
+  version: "1.0"
+  audience_level: introductory   # introductory | intermediate | advanced
+
+modules:
+  - id: M1
+    title: Why we test
+    objectives:
+      - id: TF-1.1
+        level: Understand
+        text: Explain how a fast, failing unit test shortens the feedback loop compared with manual checking.
+      - id: TF-1.2
+        level: Remember
+        text: Know the difference between unit, integration and end-to-end tests.   # flawed: vague verb
+      - id: TF-1.3
+        level: Remember
+        text: Name the three layers of the test pyramid with one example test for each.
+
+  - id: M2
+    title: Writing a good unit test
+    objectives:
+      - id: TF-2.1
+        level: Apply
+        text: Implement a unit test for a date-parsing function using the arrange-act-assert structure.
+      - id: TF-2.2
+        level: Analyse
+        text: Identify and analyse boundary-value bugs in a small discount calculator.   # flawed: compound
+      - id: TF-2.3
+        level: Evaluate
+        text: List the properties of a trustworthy unit test.   # flawed: verb is Remember, level claims Evaluate
+      - id: TF-2.4
+        level: Understand
+        text: "Test doubles: mocks, stubs and fakes."   # flawed: topic heading, not an outcome
+
+  - id: M3
+    title: Test-first in practice
+    objectives:
+      - id: TF-3.1
+        level: Apply
+        text: Demonstrate one red-green-refactor cycle on a small coding kata.
+      - id: TF-3.2
+        level: Apply
+        text: The trainer will show how to replace the system clock with a fake in a test.   # flawed: trainer-centred
+      - id: TF-3.3
+        level: Apply
+        text: Embrace test-first development.   # flawed: aspirational and too thin
+      - id: TF-3.4
+        level: Apply
+        text: Participate in a mob-testing session.   # flawed: activity instead of outcome
+      - id: TF-3.5
+        level: Evaluate
+        text: Assess a colleague's test suite and recommend the two changes with the highest value.

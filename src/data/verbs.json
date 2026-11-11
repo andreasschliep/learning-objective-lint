@@ -1,0 +1,78 @@
+{
+  "vague": [
+    "know", "knows", "knowing",
+    "understand", "understands", "understanding",
+    "appreciate", "appreciates",
+    "be familiar with", "familiar with",
+    "learn about", "learns about", "learning about",
+    "be aware of", "aware of", "awareness of",
+    "grasp", "grasps", "grasping",
+    "comprehend", "comprehends",
+    "realise", "realize",
+    "memorise", "memorize"
+  ],
+  "aspirational": [
+    "inspire", "inspires", "inspiring",
+    "instil", "instill", "instils", "instills",
+    "embody", "embodies", "embodying",
+    "feel", "feels", "feeling",
+    "believe", "believes",
+    "value", "values",
+    "embrace", "embraces", "embracing",
+    "internalise", "internalize"
+  ],
+  "activity": [
+    "participate", "participates", "participating",
+    "attend", "attends", "attending",
+    "experience", "experiences", "experiencing",
+    "take part", "takes part"
+  ],
+  "trainerCentredPhrases": [
+    "the trainer will",
+    "the trainer demonstrates",
+    "we will",
+    "this module covers",
+    "this module includes",
+    "the workshop demonstrates",
+    "the workshop covers",
+    "this session",
+    "the course covers",
+    "the course will"
+  ],
+  "byLevel": {
+    "Remember": [
+      "recall", "list", "name", "define", "identify", "recognise", "recognize",
+      "state", "label", "match", "select"
+    ],
+    "Understand": [
+      "explain", "describe", "summarise", "summarize", "paraphrase",
+      "classify", "interpret", "illustrate", "exemplify",
+      "highlight", "convey", "outline", "discuss", "report"
+    ],
+    "Apply": [
+      "apply", "demonstrate", "execute", "implement", "use", "conduct",
+      "perform", "facilitate", "carry", "calculate", "show", "support",
+      "foster", "structure", "initiate", "practice", "practise",
+      "operate", "schedule", "compute",
+      "develop", "present", "make", "moderate", "provide", "experiment",
+      "collect", "convey"
+    ],
+    "Analyse": [
+      "analyse", "analyze", "differentiate", "distinguish", "examine",
+      "attribute", "organise", "organize", "deconstruct", "propose",
+      "gather", "investigate", "categorise", "categorize", "compare"
+    ],
+    "Evaluate": [
+      "evaluate", "assess", "critique", "justify", "judge", "prioritise",
+      "prioritize", "defend", "recommend", "validate", "appraise",
+      "rank", "argue"
+    ],
+    "Create": [
+      "create", "design", "formulate", "construct", "develop", "devise",
+      "plan", "generate", "compose", "produce", "build", "assemble"
+    ]
+  },
+  "ambiguous": [
+    "discuss", "consider", "address", "look at", "go through"
+  ]
+}

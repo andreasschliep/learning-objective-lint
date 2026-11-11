@@ -1,0 +1,36 @@
+{
+  "name": "learning-objective-lint",
+  "version": "1.0.0",
+  "description": "Lint learning objectives against Bloom's taxonomy and check that a workshop agenda actually covers them.",
+  "private": true,
+  "license": "MIT",
+  "author": "Andreas Schliep",
+  "main": "src/index.js",
+  "bin": {
+    "lo-lint": "bin/lo-lint.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint:example": "node bin/lo-lint.js lint examples/testing-fundamentals/objectives.yaml --fail-on never",
+    "coverage:example": "node bin/lo-lint.js coverage examples/testing-fundamentals/objectives.yaml examples/testing-fundamentals/agenda.yaml --fail-on never",
+    "review:example": "node bin/lo-lint.js review examples/testing-fundamentals/objectives.yaml examples/testing-fundamentals/agenda.yaml --dry-run"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "keywords": [
+    "learning-objectives",
+    "bloom-taxonomy",
+    "instructional-design",
+    "lint",
+    "curriculum"
+  ],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "js-yaml": "^4.1.0"
+  }
+}

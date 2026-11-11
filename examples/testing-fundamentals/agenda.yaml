@@ -1,0 +1,77 @@
+# FICTIONAL EXAMPLE DATA
+# Agenda for the made-up "Testing Fundamentals" workshop (60 minutes).
+# Each activity lists the objectives it practises and the Bloom level participants
+# actually work at in this activity. It contains deliberate gaps so that
+# `lo-lint coverage` has something to show.
+
+metadata:
+  title: Testing Fundamentals — 60-minute workshop (fictional)
+  duration_minutes: 60
+
+activities:
+  - id: A0
+    title: Welcome and check-in
+    minutes: 5
+    description: Participants introduce themselves with the last bug that cost them an evening.
+    objectives: []
+
+  - id: A1
+    title: Bug-hunt warm-up
+    minutes: 8
+    description: >
+      Pairs get a 15-line discount calculator with a hidden bug and find it by reading and
+      running it by hand. Then they see a two-line unit test find the same bug in under a
+      second and discuss what that means for their feedback loop.
+    objectives:
+      - { id: TF-1.1, level: Understand }
+
+  - id: A2
+    title: Test pyramid sort
+    minutes: 7
+    description: >
+      Small groups sort ten printed example tests into unit, integration and end-to-end,
+      name the layer for each and explain one borderline case to the room.
+    objectives:
+      - { id: TF-1.2, level: Understand }
+      - { id: TF-1.3, level: Remember }
+
+  - id: A3
+    title: Arrange-act-assert, live
+    minutes: 8
+    description: >
+      The facilitator writes a test for a date parser live while participants predict
+      each assertion's outcome. A short explainer contrasts mocks, stubs and fakes, and
+      the facilitator replaces the system clock with a fake.
+    objectives:
+      - { id: TF-2.1, level: Understand }
+      - { id: TF-2.4, level: Understand }
+      - { id: TF-3.2, level: Understand }
+
+  - id: A4
+    title: "Pair exercise: boundary values"
+    minutes: 15
+    description: >
+      Pairs write parameterised tests for the discount calculator, find two boundary-value
+      bugs and explain to another pair why those inputs were the risky ones.
+    objectives:
+      - { id: TF-2.1, level: Apply }
+      - { id: TF-2.2, level: Analyse }
+      - { id: TF-1.1, level: Understand }
+
+  - id: A5
+    title: Red-green-refactor kata
+    minutes: 12
+    description: >
+      Pairs complete at least one full red-green-refactor cycle on a small string-formatting
+      kata, writing the failing test first.
+    objectives:
+      - { id: TF-3.1, level: Apply }
+      - { id: TF-2.1, level: Apply }
+      - { id: TF-3.3, level: Apply }
+
+  - id: A6
+    title: "Wrap-up: one habit for next week"
+    minutes: 5
+    description: Each participant writes down one testing habit they will try next week.
+    objectives:
+      - { id: TF-4.1, level: Create }   # refers to an objective that no longer exists
